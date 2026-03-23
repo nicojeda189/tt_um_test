@@ -44,7 +44,7 @@ localparam CLOCK_FREQ = 24000000;
 wire boot_reset = ~rst_n;
 
 // ----------------- SIMULATION PARAMS -------------------------
-localparam logWIDTH = 6, logHEIGHT = 5;         // 64x32 board
+localparam logWIDTH = 3, logHEIGHT = 4;         // 64x32 board
 localparam UPDATE_INTERVAL = CLOCK_FREQ / 10;   // 5 Hz simulation update
 localparam WIDTH = 2 ** logWIDTH;
 localparam HEIGHT = 2 ** logHEIGHT;
